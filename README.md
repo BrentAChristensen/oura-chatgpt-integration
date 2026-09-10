@@ -1,1 +1,2 @@
 # oura-chatgpt-integration
+updates
