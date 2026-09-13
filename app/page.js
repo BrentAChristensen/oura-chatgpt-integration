@@ -16,20 +16,37 @@ export default function Home() {
           <p className="eyebrow">Current work</p>
           <h2 id="integrations-title">Integrations</h2>
         </div>
-        <a className="integration-card" href="/oura">
-          <div className="integration-icon" aria-hidden="true">O</div>
-          <div>
-            <div className="card-topline">
-              <h3>Oura health data</h3>
-              <span className="status">In development</span>
+        <div className="integration-list">
+          <a className="integration-card" href="/oura">
+            <div className="integration-icon" aria-hidden="true">O</div>
+            <div>
+              <div className="card-topline">
+                <h3>Oura health data</h3>
+                <span className="status">In development</span>
+              </div>
+              <p>
+                Permission-based access to selected Oura data for personal analysis
+                and AI-assisted health insights.
+              </p>
+              <span className="text-link">View integration details →</span>
             </div>
-            <p>
-              Permission-based access to selected Oura data for personal analysis
-              and AI-assisted health insights.
-            </p>
-            <span className="text-link">View integration details →</span>
-          </div>
-        </a>
+          </a>
+
+          <a className="integration-card" href="/pine-ai">
+            <div className="integration-icon" aria-hidden="true">P</div>
+            <div>
+              <div className="card-topline">
+                <h3>Pine AI</h3>
+                <span className="status planned">Planned</span>
+              </div>
+              <p>
+                A future Pine AI connection. Features, permissions, and data handling
+                will be defined after the API documentation is available.
+              </p>
+              <span className="text-link">View integration details →</span>
+            </div>
+          </a>
+        </div>
       </section>
 
       <section className="principles" aria-labelledby="principles-title">

@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
             <span>Christensen Capital Integrations</span>
           </a>
           <nav aria-label="Main navigation">
-            <a href="/oura">Oura</a>
+            <a href="/#integrations-title">Integrations</a>
             <a href="/privacy">Privacy</a>
             <a href="/support">Support</a>
           </nav>
