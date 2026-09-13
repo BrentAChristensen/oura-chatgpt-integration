@@ -172,6 +172,11 @@ p, li { font-size: 1rem; line-height: 1.7; }
   text-decoration: none;
 }
 .button:hover { background: var(--blue-dark); }
+.button.disabled {
+  background: #dfe8f0;
+  color: #526170;
+  cursor: not-allowed;
+}
 .button.secondary { background: transparent; border: 1px solid var(--line); color: var(--ink); }
 .button.secondary:hover { border-color: #98b9d8; background: #fff; }
 .detail-grid { grid-template-columns: repeat(2, 1fr); margin-top: 70px; }
