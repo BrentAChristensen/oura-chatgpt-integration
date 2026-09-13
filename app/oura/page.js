@@ -15,7 +15,7 @@ export default function OuraIntegration() {
           personal analysis in AI-assisted workflows.
         </p>
         <div className="actions">
-          <a className="button" href="/api/oura/authorize">Connect Oura</a>
+          <span className="button disabled" aria-disabled="true">OAuth setup in progress</span>
           <a className="button secondary" href="/privacy">Review privacy policy</a>
         </div>
       </section>
