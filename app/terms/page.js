@@ -1,34 +1,41 @@
-export const metadata = { title: "Terms of Service | Oura ChatGPT Integration" };
+export const metadata = { title: "Terms of Service" };
 
 export default function Terms() {
   return (
-    <main>
-      <article className="card">
+    <main className="legal-page">
+      <article className="legal-card">
+        <p className="eyebrow">Christensen Capital Integrations</p>
         <h1>Terms of Service</h1>
-        <p className="muted">Last updated: September 10, 2026</p>
+        <p className="muted">Last updated: September 13, 2026</p>
         <p>
-          This service is currently a development-stage integration for connecting
-          authorized Oura data with ChatGPT-related workflows.
+          These terms apply to development-stage integrations operated by Christensen
+          Capital for authorized users and testing participants.
         </p>
-        <h2>Authorization</h2>
+        <h2>Authorized use</h2>
         <p>
-          You must use your own Oura account and grant only the permissions you wish
-          to provide. You may revoke access through Oura where supported.
-        </p>
-        <h2>No medical diagnosis</h2>
-        <p>
-          Information produced through the integration is informational and is not a
-          substitute for professional medical diagnosis, treatment, or emergency care.
-        </p>
-        <h2>Availability</h2>
-        <p>
-          The service may change, be unavailable, or be discontinued while it is in
-          development.
+          You must connect only accounts you are authorized to use and grant only the
+          permissions you choose to provide. You are responsible for complying with the
+          connected service's terms and account requirements.
         </p>
         <h2>Third-party services</h2>
         <p>
-          Use of Oura data remains subject to Oura's own terms, policies, API rules,
-          and account requirements.
+          Connected services are operated by independent providers. Their availability,
+          terms, privacy practices, and API rules continue to apply.
+        </p>
+        <h2>Development-stage availability</h2>
+        <p>
+          Integrations may change, be unavailable, or be discontinued during development.
+          No uninterrupted or error-free operation is guaranteed.
+        </p>
+        <h2>Health information</h2>
+        <p>
+          Health-related outputs are informational only and are not a substitute for
+          professional medical diagnosis, treatment, or emergency care.
+        </p>
+        <h2>Support</h2>
+        <p>
+          Questions about an integration, account connection, or data handling can be
+          submitted through the <a href="/support">support page</a>.
         </p>
       </article>
     </main>

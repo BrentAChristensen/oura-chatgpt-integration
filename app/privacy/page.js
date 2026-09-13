@@ -1,43 +1,52 @@
-export const metadata = { title: "Privacy Policy | Oura ChatGPT Integration" };
+export const metadata = { title: "Privacy Policy" };
 
 export default function Privacy() {
   return (
-    <main>
-      <article className="card">
+    <main className="legal-page">
+      <article className="legal-card">
+        <p className="eyebrow">Christensen Capital Integrations</p>
         <h1>Privacy Policy</h1>
-        <p className="muted">Last updated: September 10, 2026</p>
+        <p className="muted">Last updated: September 13, 2026</p>
         <p>
-          This integration is designed to let a user authorize access to selected
-          Oura data through Oura's OAuth authorization process.
+          This policy describes how Christensen Capital integrations handle information
+          when a user connects a supported third-party service. Each integration may
+          also provide additional, service-specific details.
         </p>
-        <h2>Data we may access</h2>
+        <h2>Information we access</h2>
         <p>
-          Depending on the permissions a user grants, the service may access Oura
-          profile information, daily summaries, heart-rate data, workouts, tags,
-          sessions, and daily SpO₂ data.
+          We access only information authorized by the user through the third-party
+          provider's permission process. The exact categories depend on the integration
+          and the permissions granted.
         </p>
-        <h2>Credentials</h2>
+        <h2>How information is used</h2>
         <p>
-          We do not collect an Oura account password. Authorization is performed on
-          Oura's website. Application secrets are stored only in server-side
-          environment configuration and are not exposed to the browser.
+          Authorized information is used only to provide the requested integration,
+          including retrieval, analysis, and user-directed automation. We do not sell
+          connected-service data.
         </p>
-        <h2>Token storage</h2>
+        <h2>Credentials and authorization</h2>
         <p>
-          The current development version does not persist Oura access or refresh
-          tokens. If persistent authorization is added later, this policy will be
-          updated before that functionality is enabled.
+          We do not request third-party account passwords. Supported connections use
+          the provider's authorization process. Application secrets remain in
+          server-side configuration and are not exposed to the browser.
         </p>
-        <h2>Use of data</h2>
+        <h2>Storage and retention</h2>
         <p>
-          Authorized Oura data will be used only to provide the integration's
-          requested functionality, such as retrieval and analysis of the user's Oura
-          information.
+          Retention depends on the integration. The current Oura development version
+          does not persist Oura access tokens, refresh tokens, or retrieved Oura data.
+          This policy will be updated before persistent storage is enabled.
         </p>
-        <h2>Contact</h2>
+        <h2>Oura integration</h2>
         <p>
-          Contact information for the application operator will be published before
-          the integration is made available beyond development/testing users.
+          Depending on the permissions granted, the Oura integration may access profile
+          information, daily summaries, heart-rate data, workouts, tags, sessions, and
+          daily SpO₂ data. That information is used only for the user-authorized workflow.
+        </p>
+        <h2>Your choices</h2>
+        <p>
+          You may decline requested permissions or revoke a connection through the
+          third-party provider where supported. See the <a href="/support">support page</a>
+          for assistance with access or deletion questions.
         </p>
       </article>
     </main>
