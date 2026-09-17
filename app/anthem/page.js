@@ -43,7 +43,7 @@ export default function AnthemIntegration() {
       </section>
 
       <p className="disclaimer">
-        Independent integration under development. Anthem, Blue Cross, and Blue Shield
+        Planned independent integration. Anthem, Blue Cross, and Blue Shield
         names and marks belong to their respective owners. This integration does not
         provide medical advice.
       </p>
