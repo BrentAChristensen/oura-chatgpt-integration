@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className="integration-list">
           <a className="integration-card" href="/oura">
-            <div className="integration-icon" aria-hidden="true">O</div>
+            <div className="integration-logo oura-logo" aria-label="Oura">ŌURA</div>
             <div>
               <div className="card-topline">
                 <h3>Oura health data</h3>
@@ -33,7 +33,7 @@ export default function Home() {
           </a>
 
           <a className="integration-card" href="/pine-ai">
-            <div className="integration-icon" aria-hidden="true">P</div>
+            <div className="integration-logo pine-logo" aria-label="Pine AI">PINE AI</div>
             <div>
               <div className="card-topline">
                 <h3>Pine AI</h3>
@@ -42,6 +42,24 @@ export default function Home() {
               <p>
                 A future Pine AI connection. Features, permissions, and data handling
                 will be defined after the API documentation is available.
+              </p>
+              <span className="text-link">View integration details →</span>
+            </div>
+          </a>
+
+
+          <a className="integration-card" href="/anthem">
+            <div className="integration-logo anthem-logo" aria-label="Anthem Blue Cross Blue Shield">
+              <span>ANTHEM<small>BLUE CROSS BLUE SHIELD</small></span>
+            </div>
+            <div>
+              <div className="card-topline">
+                <h3>Anthem Blue Cross Blue Shield</h3>
+                <span className="status">In development</span>
+              </div>
+              <p>
+                A secure, permission-based connection for selected plan information
+                and member workflows.
               </p>
               <span className="text-link">View integration details →</span>
             </div>
