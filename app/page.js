@@ -55,7 +55,7 @@ export default function Home() {
             <div>
               <div className="card-topline">
                 <h3>Anthem Blue Cross Blue Shield</h3>
-                <span className="status">In development</span>
+                <span className="status planned">Planned</span>
               </div>
               <p>
                 A secure, permission-based connection for selected plan information
