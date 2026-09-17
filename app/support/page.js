@@ -13,7 +13,7 @@ export default function Support() {
         </p>
         <h2>Include with your request</h2>
         <ul>
-          <li>The integration name, such as Oura</li>
+          <li>The integration name shown on this site</li>
           <li>A short description of the issue or request</li>
           <li>The email address associated with your invitation</li>
         </ul>

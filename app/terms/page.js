@@ -6,7 +6,7 @@ export default function Terms() {
       <article className="legal-card">
         <p className="eyebrow">Christensen Capital Integrations</p>
         <h1>Terms of Service</h1>
-        <p className="muted">Last updated: September 13, 2026</p>
+        <p className="muted">Last updated: September 17, 2026</p>
         <p>
           These terms apply to development-stage integrations operated by Christensen
           Capital for authorized users and testing participants.
@@ -27,10 +27,18 @@ export default function Terms() {
           Integrations may change, be unavailable, or be discontinued during development.
           No uninterrupted or error-free operation is guaranteed.
         </p>
-        <h2>Health information</h2>
+        <h2>Informational outputs</h2>
         <p>
-          Health-related outputs are informational only and are not a substitute for
-          professional medical diagnosis, treatment, or emergency care.
+          Integration and AI-assisted outputs are provided for informational and
+          administrative purposes. They are not a substitute for professional medical,
+          legal, tax, accounting, financial, or other professional advice. Do not rely
+          on an integration for emergency services or time-critical decisions.
+        </p>
+        <h2>User responsibility</h2>
+        <p>
+          You are responsible for reviewing outputs before acting on them and for the
+          accuracy of information you provide. Do not use an integration to violate law,
+          another person's rights, or a connected provider's rules.
         </p>
         <h2>Support</h2>
         <p>

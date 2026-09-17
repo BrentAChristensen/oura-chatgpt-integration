@@ -6,17 +6,18 @@ export default function Privacy() {
       <article className="legal-card">
         <p className="eyebrow">Christensen Capital Integrations</p>
         <h1>Privacy Policy</h1>
-        <p className="muted">Last updated: September 13, 2026</p>
+        <p className="muted">Last updated: September 17, 2026</p>
         <p>
           This policy describes how Christensen Capital integrations handle information
           when a user connects a supported third-party service. Each integration may
-          also provide additional, service-specific details.
+          provide additional, service-specific disclosures on its integration page.
         </p>
         <h2>Information we access</h2>
         <p>
           We access only information authorized by the user through the third-party
           provider's permission process. The exact categories depend on the integration
-          and the permissions granted.
+          and the permissions granted, and may include account, business, financial,
+          property, communication, or health-related information.
         </p>
         <h2>How information is used</h2>
         <p>
@@ -32,15 +33,25 @@ export default function Privacy() {
         </p>
         <h2>Storage and retention</h2>
         <p>
-          Retention depends on the integration. The current Oura development version
-          does not persist Oura access tokens, refresh tokens, or retrieved Oura data.
-          This policy will be updated before persistent storage is enabled.
+          Storage and retention depend on the integration and its authorized purpose.
+          Development-stage integrations may process information without retaining it.
+          If an integration stores connected-service data or authorization tokens, its
+          integration page will describe that handling before persistent storage is
+          enabled. Information is retained only as long as reasonably necessary for the
+          authorized purpose, security, legal obligations, or account administration.
         </p>
-        <h2>Oura integration</h2>
+        <h2>Sensitive information</h2>
         <p>
-          Depending on the permissions granted, the Oura integration may access profile
-          information, daily summaries, heart-rate data, workouts, tags, sessions, and
-          daily SpO₂ data. That information is used only for the user-authorized workflow.
+          Some integrations may handle sensitive information, including health or
+          financial information. We limit access to the permissions needed for the
+          user-authorized workflow and do not use connected-service information for
+          unrelated purposes.
+        </p>
+        <h2>Security</h2>
+        <p>
+          We use reasonable administrative and technical safeguards appropriate to the
+          development stage and sensitivity of the information. No method of electronic
+          transmission or storage can be guaranteed to be completely secure.
         </p>
         <h2>Your choices</h2>
         <p>
