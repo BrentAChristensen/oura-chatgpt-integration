@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Anthem Blue Cross Blue Shield Integration",
   description:
-    "Development information for a secure Anthem Blue Cross Blue Shield integration."
+    "Planning information for a future Anthem Blue Cross Blue Shield integration."
 };
 
 export default function AnthemIntegration() {
@@ -17,7 +17,7 @@ export default function AnthemIntegration() {
         </p>
         <div className="actions">
           <span className="button disabled" aria-disabled="true">
-            In development
+            Planned
           </span>
           <a className="button secondary" href="/privacy">Review privacy policy</a>
         </div>
@@ -26,7 +26,7 @@ export default function AnthemIntegration() {
       <section className="detail-grid">
         <article className="info-card">
           <p className="eyebrow">Current status</p>
-          <h2>Development, not connected</h2>
+          <h2>Planning, not connected</h2>
           <p>
             No Anthem account connection or member-data exchange has been enabled on
             this site.
