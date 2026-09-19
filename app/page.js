@@ -32,6 +32,21 @@ export default function Home() {
             </div>
           </a>
 
+          <a className="integration-card" href="/tesla">
+            <div className="integration-logo tesla-logo" aria-label="Tesla">TESLA</div>
+            <div>
+              <div className="card-topline">
+                <h3>Tesla Fleet API</h3>
+                <span className="status">Setup in progress</span>
+              </div>
+              <p>
+                Permission-based access to selected Tesla vehicle data and
+                owner-approved commands for useful personal automations.
+              </p>
+              <span className="text-link">View integration details →</span>
+            </div>
+          </a>
+
           <a className="integration-card" href="/pine-ai">
             <div className="integration-logo pine-logo" aria-label="Pine AI">PINE AI</div>
             <div>
@@ -46,7 +61,6 @@ export default function Home() {
               <span className="text-link">View integration details →</span>
             </div>
           </a>
-
 
           <a className="integration-card" href="/anthem">
             <div className="integration-logo anthem-logo" aria-label="Anthem Blue Cross Blue Shield">
