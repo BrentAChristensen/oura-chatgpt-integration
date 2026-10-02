@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Pine AI Integration",
-  description: "Planning information for a future Pine AI integration."
+  description:
+    "Privacy and capability information for the private Pine Voice and Assistant integration."
 };
 
 export default function PineAiIntegration() {
@@ -8,16 +9,16 @@ export default function PineAiIntegration() {
     <main>
       <section className="detail-hero">
         <a className="back-link" href="/#integrations-title">← All integrations</a>
-        <p className="eyebrow">Planned integration</p>
+        <p className="eyebrow">Private AI assistant integration</p>
         <h1>Pine AI</h1>
         <p className="lede">
-          This integration is being evaluated. Its capabilities, authorization flow,
-          and data requirements will be defined when Pine AI API documentation becomes
-          available.
+          A privately operated connection to Pine Voice and Pine Assistant for
+          owner-authorized calls, research, and multi-step tasks. It is not offered as
+          a public ChatGPT plugin or public account connection.
         </p>
         <div className="actions">
           <span className="button disabled" aria-disabled="true">
-            API documentation pending
+            Private integration active
           </span>
           <a className="button secondary" href="/privacy">Review privacy policy</a>
         </div>
@@ -26,21 +27,49 @@ export default function PineAiIntegration() {
       <section className="detail-grid">
         <article className="info-card">
           <p className="eyebrow">Current status</p>
-          <h2>Planning, not connected</h2>
+          <h2>Connected privately</h2>
           <p>
-            No Pine AI account connection or data exchange has been implemented on
-            this site.
+            The local integration is complete and connected to its owner's Pine
+            account. It is maintained in a private repository and is not published in
+            a public plugin catalog.
           </p>
         </article>
         <article className="info-card">
-          <p className="eyebrow">Next step</p>
-          <h2>Review the official API</h2>
+          <p className="eyebrow">Capabilities</p>
+          <h2>Voice and Assistant workflows</h2>
           <p>
-            Before development begins, the available endpoints, authentication method,
-            permissions, data retention, and provider requirements will be reviewed.
+            The integration can prepare and place authorized calls, read call results,
+            manage Assistant sessions and attachments, and start, stop, or delete
+            Assistant tasks within the owner's instructions.
+          </p>
+        </article>
+        <article className="info-card">
+          <p className="eyebrow">Authorization</p>
+          <h2>Confirmation before action</h2>
+          <p>
+            Calls and Assistant task execution use separate preparation and execution
+            steps. File sharing, task starts, stops, and permanent deletion require
+            explicit authorization for the exact action.
+          </p>
+        </article>
+        <article className="info-card">
+          <p className="eyebrow">Data handling</p>
+          <h2>Local credentials</h2>
+          <p>
+            Pine credentials are stored locally with owner-only file permissions and
+            are never published on this site. The integration does not persist call
+            transcripts or Assistant histories; Pine processes information sent to its
+            services for the requested workflow.
           </p>
         </article>
       </section>
+
+      <p className="disclaimer">
+        Independent private integration using Pine's official Voice and Assistant
+        interfaces. Pine AI names and marks belong to their respective owner.
+        Availability depends on the connected Pine account, subscription, credits,
+        region, and provider support.
+      </p>
     </main>
   );
 }

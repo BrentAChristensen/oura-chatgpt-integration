@@ -52,11 +52,11 @@ export default function Home() {
             <div>
               <div className="card-topline">
                 <h3>Pine AI</h3>
-                <span className="status planned">API docs pending</span>
+                <span className="status">Private integration active</span>
               </div>
               <p>
-                A future Pine AI connection. Features, permissions, and data handling will
-                be defined after official API documentation is available.
+                A private connection for owner-authorized voice calls and multi-step
+                assistant tasks, with confirmation controls for consequential actions.
               </p>
               <span className="text-link">View integration details →</span>
             </div>

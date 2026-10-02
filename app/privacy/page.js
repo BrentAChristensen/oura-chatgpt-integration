@@ -6,7 +6,7 @@ export default function Privacy() {
       <article className="legal-card">
         <p className="eyebrow">Christensen Capital Integrations</p>
         <h1>Privacy Policy</h1>
-        <p className="muted">Last updated: September 17, 2026</p>
+        <p className="muted">Last updated: October 2, 2026</p>
         <p>
           This policy describes how Christensen Capital integrations handle information
           when a user connects a supported third-party service. Each integration may
