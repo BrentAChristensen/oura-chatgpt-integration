@@ -22,11 +22,11 @@ export default function Home() {
             <div>
               <div className="card-topline">
                 <h3>Oura health data</h3>
-                <span className="status">In development</span>
+                <span className="status">OAuth setup in progress</span>
               </div>
               <p>
                 Permission-based access to selected Oura data for personal analysis
-                and AI-assisted health insights.
+                and AI-assisted health insights. Authorization setup is still in progress.
               </p>
               <span className="text-link">View integration details →</span>
             </div>
@@ -37,11 +37,11 @@ export default function Home() {
             <div>
               <div className="card-topline">
                 <h3>Tesla Fleet API</h3>
-                <span className="status">Setup in progress</span>
+                <span className="status">Developer setup</span>
               </div>
               <p>
                 Permission-based access to selected Tesla vehicle data and
-                owner-approved commands for useful personal automations.
+                owner-approved commands. Developer access setup is still in progress.
               </p>
               <span className="text-link">View integration details →</span>
             </div>
@@ -52,11 +52,11 @@ export default function Home() {
             <div>
               <div className="card-topline">
                 <h3>Pine AI</h3>
-                <span className="status planned">Planned</span>
+                <span className="status planned">API docs pending</span>
               </div>
               <p>
-                A future Pine AI connection. Features, permissions, and data handling
-                will be defined after the API documentation is available.
+                A future Pine AI connection. Features, permissions, and data handling will
+                be defined after official API documentation is available.
               </p>
               <span className="text-link">View integration details →</span>
             </div>
@@ -69,11 +69,11 @@ export default function Home() {
             <div>
               <div className="card-topline">
                 <h3>Anthem Blue Cross Blue Shield</h3>
-                <span className="status">Sandbox verified</span>
+                <span className="status">Demo published</span>
               </div>
               <p>
                 A member-controlled, read-only assistant for Patient Access records,
-                currently verified against Anthem sandbox data.
+                verified against Anthem sandbox data with a public reviewer demo.
               </p>
               <span className="text-link">View integration details →</span>
             </div>
