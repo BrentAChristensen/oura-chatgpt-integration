@@ -19,6 +19,9 @@ export default function AnthemIntegration() {
           <span className="button disabled" aria-disabled="true">
             Sandbox verified
           </span>
+          <a className="button" href="/anthem/sandbox-demo.mp4">
+            Watch sandbox demo
+          </a>
           <a className="button secondary" href="/anthem/privacy">
             Review Anthem data use
           </a>
@@ -43,6 +46,24 @@ export default function AnthemIntegration() {
             initiate payments, or diagnose conditions.
           </p>
         </article>
+      </section>
+
+      <section className="demo-card" aria-labelledby="anthem-demo-title">
+        <p className="eyebrow">Reviewer demo</p>
+        <h2 id="anthem-demo-title">Sandbox walkthrough</h2>
+        <p>
+          This recording shows the read-only Anthem sandbox connection, sandbox
+          patient context, coverage, claims and pharmacy-claim summaries, benefit
+          boundary handling, and refusal to perform write actions.
+        </p>
+        <video
+          className="demo-video"
+          controls
+          preload="metadata"
+          src="/anthem/sandbox-demo.mp4"
+        >
+          <a href="/anthem/sandbox-demo.mp4">Download the Anthem sandbox demo video.</a>
+        </video>
       </section>
 
       <p className="disclaimer">
