@@ -69,11 +69,11 @@ export default function Home() {
             <div>
               <div className="card-topline">
                 <h3>Anthem Blue Cross Blue Shield</h3>
-                <span className="status planned">Planned</span>
+                <span className="status">Sandbox verified</span>
               </div>
               <p>
-                A secure, permission-based connection for selected plan information
-                and member workflows.
+                A member-controlled, read-only assistant for Patient Access records,
+                currently verified against Anthem sandbox data.
               </p>
               <span className="text-link">View integration details →</span>
             </div>
